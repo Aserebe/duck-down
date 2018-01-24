@@ -1,0 +1,14 @@
+lab session review 1
+
+A. Started with github signup
+Entered username and password and also verified with my email address
+then repository name was created
+
+B. Python programming with help of shell and editor
+learnt how to :
+1)give the commands and perform basic operations like addition,subtraction etc..
+2)how to use print and and input functions
+3)saved my file using ".py " extension
+4)understood the difference between shell and editor
+
+c.Created the directory on the terminal window 
