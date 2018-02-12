@@ -1,0 +1,11 @@
+email scheduling
+we learnt:
+    how to use smtplib with python
+    what is a protocol?
+    what is encryption and decryption?
+    what is the smtp port no. for gmail and yahoo?
+problem faced:
+    go to the reciever's mail and under the sign in and security tab
+    switch on the access to the lesser secure apps
+
+    
