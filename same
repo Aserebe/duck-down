@@ -1,0 +1,32 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Mar  7 09:19:30 2018
+
+@author: cs2017a217
+"""
+# importing the required module
+import matplotlib.pyplot as plt
+import xlrd
+import numpy as np
+file_location="/home/cs2017a217/Documents/serene.xls"
+workbook = xlrd.open_workbook(file_location)
+first_sheet=workbook.sheet_by_index(0)
+x=[first_sheet.cell_value(i,0)for i in range(first_sheet.nrows)]
+y=[first_sheet.cell_value(i,1)for i in range(first_sheet.nrows)]
+# plotting the points 
+plt.ylim(0,15)
+plt.xlim(0,30)
+plt.plot(x,y)
+# naming the x axis
+plt.xlabel('x - axis')
+# naming the y axis
+plt.ylabel('y - axis')
+ 
+# giving a title to my graph
+plt.title("potentiometer")
+ 
+# function to show the plot
+plt.show()
+ 
+
